@@ -1,10 +1,9 @@
 // Problem #1
 var string = "Hola Spotify, I'm Rakesh, a big fan of yours";
-// reverseInput(string);
+reverseInput(string);
 
 
-function reverseInput(string) {
-    console.log(string);
+function reverseInput (string) {
     var reversedString = "";
     for (var i = string.length - 1; i >= 0; i--) {
         reversedString += string.charAt(i)
